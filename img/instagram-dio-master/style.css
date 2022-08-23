@@ -38,8 +38,8 @@ body {
 
 .instagram-continue {
     display: flex;
-    align-items: center; /* Horizontal */
-    justify-content: space-around; /* Vertical */
+    align-items: center; /* horizontal */
+    justify-content: space-around; /* vertical */
     flex-direction: column;
     width: 50%;
     min-height: 34rem;
@@ -89,7 +89,7 @@ body {
 }
 
 .not-account {
-    color: rgb(160, 160, 160)
+    color: rgb(160, 160, 160);
 }
 
 .link-blue {
@@ -120,17 +120,16 @@ body {
 }
 
 .app-download:nth-child(1) {
-    background-image: url('./img/appstore.png');
+    background-image: url('./img/apple-button.png');
 }
 
 .app-download:nth-child(2) {
-    background-image: url('./img/googleplay.png');
+    background-image: url('./img/googleplay-button.png');
 }
 
-/* medida que vc quer */
+/* media queries */
 
-
-@media (max-width: 120px) {
+@media (max-width: 1024px) {
     .instagram-wrapper {
         width: 90%;
     }
@@ -138,7 +137,7 @@ body {
 
 @media (max-width: 650px) {
     body {
-        background-color: #ffffff ;
+        background-color: #ffffff;
     }
 
     .instagram-wrapper {
@@ -152,7 +151,7 @@ body {
     .instagram-continue {
         width: 100%;
     }
-
+    
     .group {
         border: 1px solid transparent;
     }
